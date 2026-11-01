@@ -1,0 +1,26 @@
+Glazr Download Manager
+Copyright (c) 2026 IGY Apps. All rights reserved.
+
+This software (the application code, browser extension, interface, texts and
+artwork of Glazr Download Manager) is proprietary. You may install and use it
+on computers you own or control. You may not sell, sublicense, modify,
+decompile or redistribute it, except as the law expressly allows, and you may
+not remove or change its copyright notices or its banner.
+
+The application is free of charge and may be used for any purpose, including
+commercial work. Download it only from the official sources: the Microsoft
+Store, the official browser extension stores, the IGY Apps release page on
+GitHub, or links on igy-apps.com.
+
+You are responsible for what you download and for respecting the rights of
+the people who own it. The application downloads files that servers offer
+as downloads; it does not copy streaming video or bypass copy protection.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL IGY
+APPS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE
+OF THE SOFTWARE.
+
+Third-party components keep their own licenses; they are listed in
+THIRD_PARTY_NOTICES.txt and their full texts are in the "licenses" folder.
