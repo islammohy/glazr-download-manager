@@ -43,7 +43,8 @@ This repository holds downloads only. The application's source code is not publi
 
 Your downloads stay on your computer. When online, the app downloads one banner and the
 newest version number from igy-apps.com, sending only the app name, the system, the language
-and where it was installed from. Full text: [PRIVACY.md](PRIVACY.md).
+and where it was installed from. igy-apps.com keeps daily totals of these values and of banner
+clicks, with no IP address and no device or user identifier. Full text: [PRIVACY.md](PRIVACY.md).
 
 ## Open-source parts
 
@@ -80,7 +81,9 @@ post private links or cookies.
 مواقع البث مثل يوتيوب.
 
 **الخصوصية:** تنزيلاتك تبقى على جهازك. عند الاتصال بالإنترنت يجلب البرنامج الشريط الذي في
-أسفل النافذة ورقم أحدث إصدار فقط. التفاصيل في [PRIVACY.md](PRIVACY.md).
+أسفل النافذة ورقم أحدث إصدار فقط، ويرسل اسم البرنامج والنظام واللغة ومصدر التثبيت. يحتفظ
+igy-apps.com بإجماليات يومية لهذه القيم ولنقرات الشريط، بلا عنوان IP وبلا معرّف للجهاز أو
+للمستخدم. التفاصيل في [PRIVACY.md](PRIVACY.md).
 
 ![Glazr Download Manager بالعربية](docs/ar-light-real-app.png)
 
