@@ -17,16 +17,13 @@ and dropped connections, a queue with a schedule, and speed limits.
 
 ## Download
 
-Coming soon: the Microsoft Store ([Glazr Download Manager](https://apps.microsoft.com/detail/9P4MPPR56N49))
-and this repository's **[Releases](https://github.com/islammohy/glazr-download-manager/releases/latest)**:
-
-| System | File |
+| System | Where |
 |---|---|
-| Windows 10/11 (64-bit) | Microsoft Store, or `Glazr-Download-Manager-<version>-Windows-x64-Setup.exe` |
-| macOS, Apple Silicon (M1 and later) | `Glazr-Download-Manager-<version>-macOS-arm64.dmg` (signed and notarized by Apple) |
+| macOS 12 or newer, Apple Silicon (M1 and later) | **[Releases](https://github.com/islammohy/glazr-download-manager/releases/latest)**: `Glazr-Download-Manager-<version>-macOS-arm64.dmg`, signed and notarized by Apple |
+| Windows 10/11 (64-bit) | Coming soon to the [Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49) |
 
-Check a download against `SHA256SUMS.txt` in the same release if you like:
-`certutil -hashfile <file> SHA256` on Windows, `shasum -a 256 <file>` on macOS.
+Open the DMG and drag the app to Applications. Check the download against `SHA256SUMS.txt` in
+the same release if you like: `shasum -a 256 <file>`.
 
 This repository holds downloads only. The application's source code is not public.
 
@@ -73,8 +70,9 @@ post private links or cookies.
 - العربية والإنجليزية والفرنسية والألمانية؛ وضع فاتح وداكن.
 - مجاني: بلا إعلانات داخل التنزيلات، بلا عروض مدمجة، بلا تتبع.
 
-**التنزيل قريبًا** من Microsoft Store ومن صفحة [الإصدارات](https://github.com/islammohy/glazr-download-manager/releases/latest):
-لويندوز ملف `Setup.exe`، ولماك ملف `.dmg` موقّع ومعتمد من Apple.
+**التنزيل:** لماك (macOS 12 أو أحدث، معالجات Apple M1 وما بعدها) ملف `.dmg` موقّع ومعتمد من Apple في
+صفحة [الإصدارات](https://github.com/islammohy/glazr-download-manager/releases/latest). لويندوز قريبًا من
+[Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49).
 
 **الأمان:** شهادات المواقع تُفحص دائمًا، والبرنامج لا يفتح أي ملف منزّل بنفسه، والملفات
 المنزّلة تُعلَّم بأنها من الإنترنت فيفحصها النظام قبل تشغيلها. البرنامج لا ينزّل الفيديو من
