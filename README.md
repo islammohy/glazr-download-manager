@@ -27,6 +27,26 @@ the same release if you like: `shasum -a 256 <file>`.
 
 This repository holds downloads only. The application's source code is not public.
 
+## Browser extension
+
+Until the extension is in the browser stores, you add it by hand in a minute: Menu › Browser
+extension… in the app, then follow the [guide with pictures](docs/EXTENSION.md) (Chrome, Edge,
+Brave, Vivaldi, Firefox).
+
+## Command line and AI assistants
+
+Menu › **Copy instructions for AI** copies a short text for ChatGPT, Claude, Codex or another
+assistant that can run commands on your computer. It can then download the links you give it:
+
+```
+glazr-download download "https://example.com/file.zip" --json
+```
+
+On Windows the command is `glazr-download`; on a Mac it is the program inside the app (the copied
+text has the exact path). The command line only downloads http and https links you give it, saves
+only in the folder you name or your download folder, never overwrites, opens or runs a file, does
+not download from streaming sites or get past sign-ins, and needs your yes for files over 2 GB.
+
 ## Safety
 
 - Security certificates of websites are always checked; there is no way to turn that off.
@@ -73,6 +93,15 @@ post private links or cookies.
 **التنزيل:** لماك (macOS 12 أو أحدث، معالجات Apple M1 وما بعدها) ملف `.dmg` موقّع ومعتمد من Apple في
 صفحة [الإصدارات](https://github.com/islammohy/glazr-download-manager/releases/latest). لويندوز قريبًا من
 [Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49).
+
+**إضافة المتصفح:** إلى أن تصبح في متاجر المتصفحات تضيفها بنفسك في دقيقة: القائمة › إضافة المتصفح…
+في البرنامج، ثم اتبع [الشرح بالصور](docs/EXTENSION.ar.md) (كروم وإيدج وبريف وفيفالدي وفايرفوكس).
+
+**سطر الأوامر ومساعدو الذكاء الاصطناعي:** من القائمة › **نسخ تعليمات للذكاء الاصطناعي** تُنسخ
+تعليمات قصيرة لـ ChatGPT أو Claude أو Codex أو أي مساعد يستطيع تشغيل الأوامر على جهازك، فينزّل
+الروابط التي تعطيها له فقط، ويحفظ في المجلد الذي تسمّيه أو في مجلد التنزيل، ولا يكتب فوق أي ملف
+ولا يفتحه ولا يشغّله، ولا ينزّل من مواقع البث ولا يتجاوز تسجيل الدخول، ويسألك قبل الملفات الأكبر
+من 2 جيجابايت.
 
 **الأمان:** شهادات المواقع تُفحص دائمًا، والبرنامج لا يفتح أي ملف منزّل بنفسه، والملفات
 المنزّلة تُعلَّم بأنها من الإنترنت فيفحصها النظام قبل تشغيلها. البرنامج لا ينزّل الفيديو من
