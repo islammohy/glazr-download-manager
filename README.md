@@ -8,6 +8,8 @@ and dropped connections, a queue with a schedule, and speed limits.
 
 - Several connections per file, split while it downloads.
 - Pause and resume any time, even after a restart or a power cut.
+- A window for each download, with its progress, speed and a Pause button.
+- An expired link? Give it a new one and the download continues where it stopped.
 - Queue, schedule, speed limits; sleep or shut down when done.
 - Browser extension for Chrome, Edge, Brave and Firefox.
 - Arabic, English, French and German; light and dark.
@@ -85,6 +87,8 @@ post private links or cookies.
 
 - عدة اتصالات لكل ملف، تُقسَّم أثناء التنزيل.
 - إيقاف واستئناف في أي وقت، حتى بعد إعادة التشغيل أو انقطاع الكهرباء.
+- نافذة لكل تنزيل فيها التقدّم والسرعة وزر الإيقاف المؤقت.
+- انتهت صلاحية الرابط؟ أعطه رابطًا جديدًا ويكمل التنزيل من حيث توقف.
 - قائمة انتظار، وجدولة، وحد للسرعة، وسكون أو إيقاف تشغيل عند الانتهاء.
 - إضافة للمتصفح لكروم وإيدج وبريف وفايرفوكس.
 - العربية والإنجليزية والفرنسية والألمانية؛ وضع فاتح وداكن.
