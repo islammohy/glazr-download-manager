@@ -3,8 +3,11 @@
 [العربية](EXTENSION.ar.md)
 
 The extension sends the downloads you start in your browser to Glazr Download Manager, and adds
-"Download with Glazr" to the right-click menu of links. Until it is in the Chrome, Edge and Firefox
-stores, you add it by hand. It takes a minute, and you do it once (Firefox: after each restart).
+"Download with Glazr" to the right-click menu of links.
+
+**Chrome, Edge and Brave: add it from the [Chrome Web Store](https://chromewebstore.google.com/detail/glazr-download-manager/enkamijjlfaljkflhjgnfnmacmpkpfgo) instead.** That is
+quicker, and it updates by itself. This guide is for Firefox, and for adding it by hand in any of
+these browsers. It takes a minute, and you do it once (Firefox: after each restart).
 
 Start in the app: **Menu › Browser extension…** The window has everything you need: a button that
 opens your browser's extensions page, and the folder to choose, with a button that copies its path.

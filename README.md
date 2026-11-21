@@ -11,7 +11,7 @@ and dropped connections, a queue with a schedule, and speed limits.
 - A window for each download, with its progress, speed and a Pause button.
 - An expired link? Give it a new one and the download continues where it stopped.
 - Queue, schedule, speed limits; sleep or shut down when done.
-- Browser extension for Chrome, Edge, Brave and Firefox.
+- Browser extension for Chrome, Edge and Brave from the [Chrome Web Store](https://chromewebstore.google.com/detail/glazr-download-manager/enkamijjlfaljkflhjgnfnmacmpkpfgo); Firefox by hand.
 - Arabic, English, French and German; light and dark.
 - Free: no ads inside downloads, no bundled offers, no tracking.
 
@@ -22,7 +22,7 @@ and dropped connections, a queue with a schedule, and speed limits.
 | System | Where |
 |---|---|
 | macOS 12 or newer, Apple Silicon (M1 and later) | **[Releases](https://github.com/islammohy/glazr-download-manager/releases/latest)**: `Glazr-Download-Manager-<version>-macOS-arm64.dmg`, signed and notarized by Apple |
-| Windows 10/11 (64-bit) | Coming soon to the [Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49) |
+| Windows 10/11 (64-bit) | **[Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49)** |
 
 Open the DMG and drag the app to Applications. Check the download against `SHA256SUMS.txt` in
 the same release if you like: `shasum -a 256 <file>`.
@@ -31,9 +31,16 @@ This repository holds downloads only. The application's source code is not publi
 
 ## Browser extension
 
-Until the extension is in the browser stores, you add it by hand in a minute: Menu › Browser
-extension… in the app, then follow the [guide with pictures](docs/EXTENSION.md) (Chrome, Edge,
-Brave, Vivaldi, Firefox).
+**Chrome, Edge and Brave:** add Glazr from the **[Chrome Web Store](https://chromewebstore.google.com/detail/glazr-download-manager/enkamijjlfaljkflhjgnfnmacmpkpfgo)**. The downloads you
+start in the browser then go to the app, which must be installed. Edge asks once to allow
+extensions from other stores. If you added the extension by hand before, remove that copy.
+
+If Chrome says *Proceed with caution*: it shows this only with Enhanced protection on, for
+extensions from developers new to the Chrome Web Store. Google reviewed and approved the
+extension; choose **Continue to install**.
+
+**Firefox:** add it by hand in a minute: Menu › Browser extension… in the app, then follow the
+[guide with pictures](docs/EXTENSION.md).
 
 ## Command line and AI assistants
 
@@ -90,16 +97,20 @@ post private links or cookies.
 - نافذة لكل تنزيل فيها التقدّم والسرعة وزر الإيقاف المؤقت.
 - انتهت صلاحية الرابط؟ أعطه رابطًا جديدًا ويكمل التنزيل من حيث توقف.
 - قائمة انتظار، وجدولة، وحد للسرعة، وسكون أو إيقاف تشغيل عند الانتهاء.
-- إضافة للمتصفح لكروم وإيدج وبريف وفايرفوكس.
+- إضافة للمتصفح لكروم وإيدج وبريف من [Chrome Web Store](https://chromewebstore.google.com/detail/glazr-download-manager/enkamijjlfaljkflhjgnfnmacmpkpfgo)، ولفايرفوكس يدويًا.
 - العربية والإنجليزية والفرنسية والألمانية؛ وضع فاتح وداكن.
 - مجاني: بلا إعلانات داخل التنزيلات، بلا عروض مدمجة، بلا تتبع.
 
 **التنزيل:** لماك (macOS 12 أو أحدث، معالجات Apple M1 وما بعدها) ملف `.dmg` موقّع ومعتمد من Apple في
-صفحة [الإصدارات](https://github.com/islammohy/glazr-download-manager/releases/latest). لويندوز قريبًا من
+صفحة [الإصدارات](https://github.com/islammohy/glazr-download-manager/releases/latest). لويندوز من
 [Microsoft Store](https://apps.microsoft.com/detail/9P4MPPR56N49).
 
-**إضافة المتصفح:** إلى أن تصبح في متاجر المتصفحات تضيفها بنفسك في دقيقة: القائمة › إضافة المتصفح…
-في البرنامج، ثم اتبع [الشرح بالصور](docs/EXTENSION.ar.md) (كروم وإيدج وبريف وفيفالدي وفايرفوكس).
+**إضافة المتصفح:** لكروم وإيدج وبريف أضف Glazr من **[Chrome Web Store](https://chromewebstore.google.com/detail/glazr-download-manager/enkamijjlfaljkflhjgnfnmacmpkpfgo)**، فتذهب
+التنزيلات التي تبدأها في المتصفح إلى البرنامج (يجب أن يكون مثبّتًا). يطلب إيدج مرة واحدة السماح
+بإضافات المتاجر الأخرى. إذا كنت أضفت الإضافة يدويًا من قبل، احذف تلك النسخة. إذا ظهرت رسالة
+*Proceed with caution*: يعرضها كروم فقط لمن فعّل الحماية المحسّنة، مع إضافات المطوّرين الجدد في
+المتجر. راجعت جوجل الإضافة ووافقت عليها؛ اختر **Continue to install**. لفايرفوكس تضيفها بنفسك في
+دقيقة: القائمة › إضافة المتصفح… في البرنامج، ثم اتبع [الشرح بالصور](docs/EXTENSION.ar.md).
 
 **سطر الأوامر ومساعدو الذكاء الاصطناعي:** من القائمة › **نسخ تعليمات للذكاء الاصطناعي** تُنسخ
 تعليمات قصيرة لـ ChatGPT أو Claude أو Codex أو أي مساعد يستطيع تشغيل الأوامر على جهازك، فينزّل
